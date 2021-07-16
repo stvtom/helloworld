@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9b67d6e-3a84-4f50-990f-b82d692a597d" name="Default" comment="提交代码到远程" />
+    <list default="true" id="c9b67d6e-3a84-4f50-990f-b82d692a597d" name="Default" comment="提交代码到远程">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/src/main/target/" />
@@ -40,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/springXml/XmlApplicationContextText.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/springXml/ApplicationContextText.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -210,7 +212,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="20" />
     <option name="y" value="15" />
     <option name="width" value="1346" />
@@ -715,7 +717,7 @@
       <workItem from="1625890619851" duration="537000" />
       <workItem from="1625904770618" duration="1495000" />
       <workItem from="1625906305915" duration="334000" />
-      <workItem from="1625906672289" duration="27771000" />
+      <workItem from="1625906672289" duration="27845000" />
     </task>
     <task id="LOCAL-00001" summary="提交代码到远程">
       <created>1625886268843</created>
@@ -770,7 +772,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52842000" />
+    <option name="totallyTimeSpent" value="52916000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -782,7 +784,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="15" width="1346" height="688" extended-state="1" />
+    <frame x="20" y="15" width="1346" height="688" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33873874" sideWeight="0.5062208" order="7" side_tool="true" content_ui="tabs" />
@@ -1415,7 +1417,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/springXml/XmlApplicationContextText.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1431,7 +1433,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/springXml/ApplicationContextText.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding />
         </state>
       </provider>
