@@ -1,10 +1,8 @@
-package servlet;
+package core.collection;
 
-import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class MyHashMap<K,V>  implements Map<K,V> {
-
 
     public int size() {
         return 0;

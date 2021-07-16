@@ -1,4 +1,4 @@
-package servlet;
+package core.collection;
 
 public class MyHashMapTest {
 
