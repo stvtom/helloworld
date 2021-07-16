@@ -23,6 +23,7 @@ public class ApplicationContextText {
 //            System.err.println(name);
 //        }
 
+
         ConfigurableListableBeanFactory beanFactory =
                 applicationContext.getBeanFactory();
 
