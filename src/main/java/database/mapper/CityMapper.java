@@ -15,7 +15,10 @@ import java.util.List;
  */
 public interface CityMapper extends BaseMapper<City> {
 
-    public List<City> findAllUser();
+    public List<City> findAllCity();
+
+    public City getCityById(Integer id);
+
 }
 
 

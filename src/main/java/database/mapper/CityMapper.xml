@@ -3,9 +3,20 @@
 
 <mapper namespace="database.mapper.CityMapper">
 
+
+
+
     <!-- 查找city信息 -->
-    <select id="findAllUser" resultType="database.model.City">
+    <select id="findAllCity" resultType="database.model.City">
         select * from city
+    </select>
+
+    <!-- #是把传入的数据当作字符串,$传入的数据直接生成在sql里
+    #方式能够很大程度防止sql注入,$方式无法防止sql注入．一般能用#的就别用$.
+    $方式一般用于传入数据库对象．例如传入表名.
+    -->
+    <select id="getCityById" resultType="database.model.City">
+        SELECT * FROM city where id = #{id};
     </select>
 
 </mapper>

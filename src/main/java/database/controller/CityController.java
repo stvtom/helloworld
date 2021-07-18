@@ -4,6 +4,7 @@ package database.controller;
 import com.alibaba.fastjson.JSON;
 import database.mapper.CityMapper;
 import database.model.City;
+import database.service.impl.CityServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -27,9 +28,16 @@ public class CityController {
     @Autowired
     private CityMapper cityMapper;
 
-    @RequestMapping("findAllUser")
-    public String findAllUser(){
-        List<City> allUser = cityMapper.findAllUser();
+    @RequestMapping("findAllCity")
+    public String findAllCity(){
+        List<City> allUser = cityMapper.findAllCity();
         return JSON.toJSONString(allUser);
     }
+
+    @RequestMapping("findCityById")
+    public String findCityById(Integer id){
+        City cityById = cityMapper.getCityById(id);
+        return JSON.toJSONString(cityById);
+    }
+
 }
