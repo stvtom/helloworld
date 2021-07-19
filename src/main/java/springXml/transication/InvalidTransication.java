@@ -16,8 +16,6 @@ public class InvalidTransication {
     @Autowired
     private ValidTransication validTransication;
 
-
-
     @Transactional
     public int creat(){
         Boolean aBoolean = cityService.updateCity(null);

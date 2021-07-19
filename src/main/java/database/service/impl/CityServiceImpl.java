@@ -1,5 +1,6 @@
 package database.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import database.model.City;
 import database.mapper.CityMapper;
@@ -25,8 +26,16 @@ public class CityServiceImpl extends ServiceImpl<CityMapper, City> implements IC
     public Boolean updateCity(City city) {
         LambdaUpdateWrapper<City> updateWrapper = new LambdaUpdateWrapper();
 //        Kabol
-        updateWrapper.set(City::getDistrict,"Kabol").in(City::getId,1);
+        updateWrapper.set(City::getDistrict,"Kabolaa").in(City::getId,1);
         boolean update = update(updateWrapper);
         return update;
+    }
+
+    @Override
+    public City getCityByName(City city){
+        LambdaQueryWrapper<City>lambdaQueryWrapper = new LambdaQueryWrapper<>();
+        lambdaQueryWrapper.eq(City::getName,"Kabul");
+        City oneCity = getOne(lambdaQueryWrapper);
+        return oneCity;
     }
 }

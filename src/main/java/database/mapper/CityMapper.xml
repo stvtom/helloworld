@@ -3,7 +3,9 @@
 
 <mapper namespace="database.mapper.CityMapper">
 
-
+    <update id="updateName">
+        update city set District = "Kabolaaaaaaaa" where id = 1;
+    </update>
 
 
     <!-- 查找city信息 -->

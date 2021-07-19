@@ -19,6 +19,8 @@ public interface CityMapper extends BaseMapper<City> {
 
     public City getCityById(Integer id);
 
+    public void updateName();
+
 }
 
 

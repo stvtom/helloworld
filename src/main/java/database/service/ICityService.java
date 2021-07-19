@@ -14,4 +14,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
 public interface ICityService extends IService<City> {
 
     Boolean updateCity(City city);
+
+    City getCityByName(City city);
 }
