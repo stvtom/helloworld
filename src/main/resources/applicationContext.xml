@@ -6,18 +6,16 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
 
+
     <bean id = "animalService" class="springXml.AnimalService">
         <property name="animalAgeService" ref="animalAge">
         </property>
     </bean>
 
     <bean id = "animalAge" class="springXml.AnimalAgeService">
-
         <property name="userName" value="zhangsan">
-
         </property>
     </bean>
-
 
 
 </beans>
