@@ -24,9 +24,13 @@ public class JdbcController {
             int i = 1 / 0;
             return s;
         }catch (Exception e) {
-            logger.error("测试errorr日志");
+            logger.error("测试error日志");
         };
-        return "失败";
+
+        new Thread(()->{
+            logger.info("这是一个多线程测试 traceId为空");
+        }).start();
+        return "error";
     }
 
 }
