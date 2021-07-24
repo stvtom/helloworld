@@ -6,7 +6,9 @@ import database.model.City;
 import database.mapper.CityMapper;
 import database.service.ICityService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 /**
@@ -17,6 +19,7 @@ import org.springframework.stereotype.Service;
  * @author astupidcoder
  * @since 2021-07-18
  */
+
 @Service
 public class CityServiceImpl extends ServiceImpl<CityMapper, City> implements ICityService {
 
@@ -38,4 +41,5 @@ public class CityServiceImpl extends ServiceImpl<CityMapper, City> implements IC
         City oneCity = getOne(lambdaQueryWrapper);
         return oneCity;
     }
+
 }
