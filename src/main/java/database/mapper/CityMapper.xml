@@ -10,7 +10,7 @@
 
     <!-- 查找city信息 -->
     <select id="findAllCity" resultType="database.model.City">
-        select * from city
+        select * from city where id = 1;
     </select>
 
     <!-- #是把传入的数据当作字符串,$传入的数据直接生成在sql里

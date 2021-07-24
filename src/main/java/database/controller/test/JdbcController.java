@@ -19,7 +19,14 @@ public class JdbcController {
     @RequestMapping(value = "getUser")
     public Object getUser(@RequestParam(value = "id")String id){
         logger.info("getUser启动开始---id:{}",id);
-        return jdbcTemplate.queryForObject("select name from city where id = ?", new String[]{id}, String.class);
+        try {
+            String s = jdbcTemplate.queryForObject("select name from city where id = ?", new String[]{id}, String.class);
+            int i = 1 / 0;
+            return s;
+        }catch (Exception e) {
+            logger.error("测试errorr日志");
+        };
+        return "失败";
     }
 
 }
