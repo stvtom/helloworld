@@ -1,5 +1,6 @@
-package database.config;
+package database.config.filter;
 
+import database.config.Interceptor.TraceIdUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.core.annotation.Order;
@@ -18,6 +19,8 @@ import java.io.IOException;
  * SpringBoot Logback日志配置
  * https://www.cnblogs.com/lspz/p/6473686.html
  */
+//需要在HelloApplication上加@ServletComponentScan(basePackages = "database.config")配合使用
+// 此次没使用
 @WebFilter(urlPatterns = "/*", filterName = "traceIdFilter")
 @Order(1)
 @Slf4j

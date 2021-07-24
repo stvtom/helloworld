@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @ComponentScan(basePackages ={"springXml", "database","core","servlet"})
 @MapperScan("database.mapper")
-@ServletComponentScan(basePackages = "database.config")
+//@ServletComponentScan(basePackages = "database.config")
 //@ComponentScan
 public class HelloApplication {
 
