@@ -6,6 +6,5 @@ public class MyHashMapTest {
 
         MyHashMap<String, String> hashMap = new MyHashMap<String, String>();
 
-
     }
 }
