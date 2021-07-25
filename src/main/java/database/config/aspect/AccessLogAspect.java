@@ -13,7 +13,11 @@ import java.util.Arrays;
 @Aspect
 public class AccessLogAspect {
 
-    @Pointcut("execution(* database.controller.*.*(..))")
+    /**
+     * AOP（execution表达式）
+     * https://blog.csdn.net/ABCD898989/article/details/50809321
+     */
+    @Pointcut("execution(* database.controller..*.*(..))")
     public void pointCut(){
     };
 
