@@ -1,4 +1,4 @@
-package springXml.aop;
+package springXml.aop.jdkDynamic;
 
 import java.lang.reflect.Method;
 

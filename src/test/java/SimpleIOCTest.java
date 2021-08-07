@@ -2,7 +2,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import springXml.aop.*;
+import springXml.aop.jdkDynamic.*;
 import springXml.ioc.Car;
 import springXml.ioc.SimpleIOC;
 import springXml.ioc.Wheel;

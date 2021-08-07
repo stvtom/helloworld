@@ -1,5 +1,8 @@
 package springXml;
 
+// https://blog.csdn.net/qqHJQS/article/details/80963875
+// 发布自己的jar到Maven Repository公服上
+
 //yn8ptaan
 public class Main {
 //E:\idea\JetBrains\IntelliJ IDEA 2017.3.3\bin

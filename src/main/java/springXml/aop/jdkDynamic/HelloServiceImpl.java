@@ -1,4 +1,4 @@
-package springXml.aop;
+package springXml.aop.jdkDynamic;
 
 public class HelloServiceImpl implements HelloService {
 
