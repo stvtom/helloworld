@@ -8,3 +8,5 @@
 > 算法越复杂、速度性越低;
 
 ## hashMap
+* B站详细视频
+https://www.bilibili.com/video/BV1cU4y147QW?p=29
