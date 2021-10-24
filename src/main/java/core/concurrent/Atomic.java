@@ -22,11 +22,15 @@ public class Atomic {
                 new ThreadFactoryBuilder().setNameFormat("listen-accountForbidden-thread-%d")
                         .setUncaughtExceptionHandler((t, e) -> {
                         }).build());
-        AtomicInteger atomicInteger = new AtomicInteger(0);
+        AtomicInteger atomicInteger = new AtomicInteger(100);
         for (int i = 0; i < 10000; i++) {
             executor.submit(()->{
                 atomicInteger.getAndIncrement();
             });
+            System.err.println(atomicInteger.get());
+        }
+
+        for (int i = 0; i < 10000; i++) {
             executor.submit(()->{
                 atomicInteger.getAndDecrement();
             });
