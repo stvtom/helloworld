@@ -7,9 +7,9 @@ package program.TreeProgramming;
  */
 public class TreeNode {
 
-    TreeNode left;
+    public TreeNode left;
 
-    TreeNode right;
+    public TreeNode right;
 
     public TreeNode getRight() {
         return right;
