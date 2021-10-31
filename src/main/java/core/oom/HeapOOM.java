@@ -1,4 +1,4 @@
-package core.demo;
+package core.oom;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,4 +28,6 @@ public class HeapOOM {
             list.add(new HeapOOM());
         }
     }
+
+    //java.lang.OutOfMemoryError: Java heap space
 }
