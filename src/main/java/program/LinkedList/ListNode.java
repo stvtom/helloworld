@@ -7,9 +7,9 @@ package program.LinkedList;
  */
 public class ListNode {
 
-    ListNode next;
+    public ListNode next;
 
-    int val;
+    public int val;
 
     public ListNode(int val){
         this.val = val;
