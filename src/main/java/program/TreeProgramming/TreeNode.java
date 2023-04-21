@@ -23,7 +23,7 @@ public class TreeNode {
         return left;
     }
 
-    int val;
+    public int val;
 
     public TreeNode(int val){
         this.val = val;
